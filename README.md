@@ -45,7 +45,7 @@ Please make sure to update tests as appropriate.
 - What is the command line/bash/ where are you entering all these commands?
   * If you have windows, click the search bar and type CMD to open the command prompt (Or try [these](https://www.digitalcitizen.life/open-cmd))
   * On MacOS, click the launchpad icon and type terminal, then click terminal
-  * (Overview of common CLI commands](https://www.w3schools.com/whatis/whatis_cli.asp)
+  * [Overview of common CLI commands](https://www.w3schools.com/whatis/whatis_cli.asp)
   
 - Why can't I push to main?
   * You totally can if you want, ask and I'll add you to main's permissions. However, the way it's usually done is by branching or forking the project and then starting a pull request. [Learn more about pull requests.](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
