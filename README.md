@@ -43,7 +43,7 @@ Please make sure to update tests as appropriate.
   
 - What is the command line/bash/ where are you entering all these commands?
   * If you have windows, click the search bar and type CMD to open the command prompt (Or try [these](https://www.digitalcitizen.life/open-cmd))
-  * On MacOS, click the launchpad icon and type terminal, the click terminal
+  * On MacOS, click the launchpad icon and type terminal, then click terminal
   * (Overview of common CLI commands](https://www.w3schools.com/whatis/whatis_cli.asp)
   
 - Why can't I push to main?
