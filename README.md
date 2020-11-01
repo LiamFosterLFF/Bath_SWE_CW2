@@ -27,10 +27,11 @@ git config --global user.email "you@example.com"
 ```
 
 - Pull to local folder (fetch the latest version and merge with your project folder)
-  *In your project folder
-  ```bash
-  git pull origin main
-  
+In your project folder
+```bash
+git pull origin main
+```
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
