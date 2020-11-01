@@ -39,7 +39,7 @@ Please make sure to update tests as appropriate.
 - What is git?
   * [Good video tutorials](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
   * Git docs
-  * [Danggitgit](https://dangitgit.com/en) for common tasks using git
+  * [Dangitgit](https://dangitgit.com/en) for common tasks using git
   
 - What is the command line/bash/ where are you entering all these commands?
   * If you have windows, click the search bar and type CMD to open the command prompt (Or try [these](https://www.digitalcitizen.life/open-cmd))
