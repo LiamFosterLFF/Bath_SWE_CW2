@@ -47,5 +47,5 @@ Please make sure to update tests as appropriate.
   * On MacOS, click the launchpad icon and type terminal, then click terminal
   * [Overview of common CLI commands](https://www.w3schools.com/whatis/whatis_cli.asp)
   
-- Why can't I push to main?
-  * You totally can if you want, ask and I'll add you to main's permissions. However, the way it's usually done is by branching or forking the project and then starting a pull request. [Learn more about pull requests.](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+- How do I contribute
+  * If you want to become a developer on the project, contact me. However, the easier way is by branching or forking the project and then starting a pull request. [Learn more about contributing to a github project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
