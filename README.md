@@ -11,13 +11,13 @@ git clone https://github.com/LiamFosterLFF/Bath_SWE_CW2.git
 
 ## Usage
 
-1. To install the Unity Hub for Windows, macOS, and Linux visit [Download Unity](https://unity3d.com/get-unity/download?_ga=2.209152402.1644705729.1604169206-1437629805.1604169206) on the Unity website.
+1. To install the Unity Hub for Windows, MacOS, and Linux visit [Download Unity](https://unity3d.com/get-unity/download?_ga=2.209152402.1644705729.1604169206-1437629805.1604169206) on the Unity website.
 
-2. Follow the instructions to [install the Unity Editor](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html)
+2. Download Unity 2020.1.10 from [here](https://unity3d.com/get-unity/download/archive?_ga=2.257575048.240383081.1604267562-1981148611.1604164943) (NOTE: You must download Version 2020.1.10, please do not download through Unity Hub or click the wrong version as the project will not work with another version of Unity and others will not be able to open your project on a different version either)
 
 3. Open the Unity Hub, click the "Projects" tab on the left, click "Add" on the top right, then navigate to where the project folder is located and click "OK
 
-4. Once the project is added to your list of projects in Unity Hub, double-click the project to open it
+4. Once the project is added to your list of projects in Unity Hub, click the project to open it
 
 ## Contributing
 - If this is your first time using git
