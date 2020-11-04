@@ -12,9 +12,9 @@ Dungeon game for the second coursework for Bath Master's class of '21 Software E
  
  - Clone your own repo onto your machine
    * To find the web address for cloning your repo, go to the repo's main page, press the green button "Code" and copy the address there
-```bash
-git clone YOUR_REPOS_WEB_ADDRESS
-```
+      ```bash
+      git clone YOUR_REPOS_WEB_ADDRESS
+      ```
 
 ## Usage
 
@@ -29,22 +29,22 @@ git clone YOUR_REPOS_WEB_ADDRESS
 ## Syncing Your Repo with the Main Repo
 - If this is your first time syncing the repo
   * If this is your first time using git
-  ```bash
-  git config --global user.name "Your Name"
-  git config --global user.email "you@example.com"
-  ```
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+    ```
   * If you haven't forked the project already, follow the instructions in the installation section for forking this repo to your account
 
   * If you added a local connection to this repo, set this repo as upstream to the forked to your account
-  ```bash
-  git remote add upstream https://github.com/LiamFosterLFF/Bath_SWE_CW2.git
-  ```
+    ```bash
+    git remote add upstream https://github.com/LiamFosterLFF/Bath_SWE_CW2.git
+    ```
 
 - Pull to local folder (fetch the latest version and merge with your project folder)
-In your project folder
-```bash
-git pull upstream main
-```
+  * In your project folder
+    ```bash
+    git pull upstream main
+    ```
 
 ## Contributing
 
@@ -52,11 +52,11 @@ git pull upstream main
  * NOTE: When you make changes, do not make changes to the scene directly or they will not integrate with the main project. Instead, store your changes in the form of "prefabs". To make a prefab, simply open the "Prefabs" folder under assets in the project window, and drag your game object into that folder. [Good video explaining prefabs](https://www.youtube.com/watch?v=plHcffZ0eLo)
  
 - Add, commit, and push to your repo
-```bash
-git add .
-git commit -m "Put a message here that describes the changes you made. Do this often, smaller changes are better"
-git push origin main
-```
+  ```bash
+  git add .
+  git commit -m "Put a message here that describes the changes you made. Do this often, smaller changes are better"
+  git push origin main
+  ```
 
 - Then, go to your github repo's webpage, and close to the top, select where it says "Pull requests"
   * On the ensuing page, click the green button "New pull request"
