@@ -27,18 +27,18 @@ git clone YOUR_REPOS_WEB_ADDRESS
 4. Once the project is added to your list of projects in Unity Hub, click the project to open it
 
 ## Syncing Your Repo with the Main Repo
+- If this is your first time syncing the repo
+  * If this is your first time using git
+  ```bash
+  git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"
+  ```
+  * If you haven't forked the project already, follow the instructions in the installation section for forking this repo to your account
 
-- If this is your first time using git
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-```
-- In order to edit, fork the project to your own github account (See installation)
-
-- Add a local connection syncing the upstream repo to the one forked to your account
-```bash
-git remote add upstream https://github.com/LiamFosterLFF/Bath_SWE_CW2.git
-```
+  * If you added a local connection to this repo, set this repo as upstream to the forked to your account
+  ```bash
+  git remote add upstream https://github.com/LiamFosterLFF/Bath_SWE_CW2.git
+  ```
 
 - Pull to local folder (fetch the latest version and merge with your project folder)
 In your project folder
