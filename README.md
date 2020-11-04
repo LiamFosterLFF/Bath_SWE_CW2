@@ -41,7 +41,7 @@ Dungeon game for the second coursework for Bath Master's class of '21 Software E
     ```
 
 - Pull to local folder (fetch the latest version and merge with your project folder)
-  * In your project folder
+  * Move in the terminal so that you're in your project folder (Use the cd comment, e.g. "cd ~/home/user/Bath_SWE_CW2")
     ```bash
     git pull upstream main
     ```
