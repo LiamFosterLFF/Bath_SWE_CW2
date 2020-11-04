@@ -79,4 +79,4 @@ git push origin main
   * If you want to become a developer on the project, contact me. However, the easier way is by branching or forking the project and then starting a pull request. [Learn more about contributing to a github project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
   
 - I read online that I need to do something with the master branch but git gives the error "error: src refspec master does not match any". What's the deal?
- * Starting from October 1, 2020, the master branch has been by default renamed to "main". You can read more about it [here](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/). Just swap out "main" for "master" and you're good to go.
+  * Starting from October 1, 2020, the master branch has been by default renamed to "main". You can read more about it [here](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/). Just swap out "main" for "master" and you're good to go.
