@@ -1,16 +1,3 @@
-using NUnit.Framework;
-
-
-namespace UnityEditor.Experimental.U2D.Commons.Tests
-{
-    public class Placeholder
-    {
-        [Test]
-        public void PlaceHolderTest()
-        {
-            // Use the Assert class to test conditions.
-            Assert.Pass("This is a placeholder to ensure we have at least one test.");
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:38243b18c63fa0009c0f791a991d5ec1b5820bd514ac92910571d42002df30e6
+size 356

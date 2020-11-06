@@ -1,35 +1,3 @@
-using System;
-using System.Collections;
-using UnityEditor;
-using UnityEditorInternal;
-
-namespace UnityEngine.TestTools
-{
-    public class WaitForDomainReload : IEditModeTestYieldInstruction
-    {
-        public WaitForDomainReload()
-        {
-            ExpectDomainReload = true;
-        }
-
-        public bool ExpectDomainReload { get;  }
-        public bool ExpectedPlaymodeState { get; }
-
-        public IEnumerator Perform()
-        {
-            EditorApplication.UnlockReloadAssemblies();
-
-            while (InternalEditorUtility.IsScriptReloadRequested() || EditorApplication.isCompiling)
-            {
-                yield return null;
-            }
-
-            // Add this point the domain reload should have occured and stopped any further progress on the instruction.
-            EditorApplication.LockReloadAssemblies();
-            throw new Exception(
-                EditorUtility.scriptCompilationFailed ? 
-                    "Script compilation failed" : 
-                    "Expected domain reload, but it did not occur");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84fc9e939672b87348c6ceea8f2bddc5b2ee74f23417e3d7b99caeb0404a4657
+size 1102

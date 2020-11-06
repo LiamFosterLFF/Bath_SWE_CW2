@@ -1,21 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MeatboyController : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        Vector2 position = transform.position;
-        position.x = position.x + 1f * horizontal * Time.deltaTime;
-        transform.position = position;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:73996cc237716e6c5bafb3eb25b2d7f5d58586591d6fb34266e55ba7560fab8b
+size 497
