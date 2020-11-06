@@ -1,31 +1,3 @@
-using System;
-using NUnit.Framework.Interfaces;
-
-namespace Packages.Rider.Editor.UnitTesting
-{
-  [Serializable]
-  public enum EventType { TestStarted, TestFinished, RunFinished, RunStarted } // do not reorder
-
-  [Serializable]
-  public class TestEvent
-  {
-    public EventType type;
-    public string id;
-    public string assemblyName;
-    public string output;
-    public TestStatus testStatus;
-    public double duration;
-    public string parentId;
-    
-    public TestEvent(EventType type, string id, string assemblyName, string output, double duration, TestStatus testStatus, string parentID)
-    {
-      this.type = type;
-      this.id = id;
-      this.assemblyName = assemblyName;
-      this.output = output;
-      this.testStatus = testStatus;
-      this.duration = duration;
-      parentId = parentID;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7f6454a2d1e9378ed7cf563a3e3deead0e527dbcbc689e5b6733efecdc32476
+size 853

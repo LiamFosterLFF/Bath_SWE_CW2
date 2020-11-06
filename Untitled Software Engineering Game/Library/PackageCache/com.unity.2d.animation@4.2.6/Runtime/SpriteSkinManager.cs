@@ -1,23 +1,3 @@
-﻿namespace UnityEngine.U2D.Animation
-{
-    internal class SpriteSkinManager
-    {
-        // Doing this to hide it from user adding it from Inspector
-        [DefaultExecutionOrder(-1)]
-        [ExecuteInEditMode]
-        internal class SpriteSkinManagerInternal : MonoBehaviour
-        {
-#if ENABLE_ANIMATION_COLLECTION
-            void LateUpdate()
-            {
-                if (SpriteSkinComposite.instance.helperGameObject != gameObject)
-                {
-                    GameObject.DestroyImmediate(gameObject);
-                    return;
-                }
-                SpriteSkinComposite.instance.LateUpdate();
-            }
-#endif
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6339ee820030f5f685f524c6b4bba122aad691514942a8ebfb3cc92020835d70
+size 694
